@@ -145,6 +145,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.aspx" />
     <Content Include="aboutUs.aspx" />
     <Content Include="bin\EntityFramework.dll" />
     <Content Include="bin\EntityFramework.SqlServer.dll" />
@@ -197,6 +198,7 @@
     <Content Include="calculator.aspx" />
     <Content Include="carMileage.aspx" />
     <Content Include="contactUs.aspx" />
+    <Content Include="error.aspx" />
     <Content Include="Images\cmc.png" />
     <Content Include="js\scripts.js" />
     <Content Include="login.aspx" />
@@ -244,6 +246,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
     <Compile Include="aboutUs.aspx.cs">
       <DependentUpon>aboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -293,6 +302,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error.aspx.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.cs">
+      <DependentUpon>error.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
