@@ -198,6 +198,7 @@
     <Content Include="calculator.aspx" />
     <Content Include="carMileage.aspx" />
     <Content Include="contactUs.aspx" />
+    <Content Include="css\style.css" />
     <Content Include="error.aspx" />
     <Content Include="Images\cmc.png" />
     <Content Include="js\scripts.js" />

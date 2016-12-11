@@ -2,8 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>Car Mileage</h1>
-    <a href="calculator.aspx">Calculate Mileage</a>s
+    <div class="container">
+    <h1>Calculated Mileage</h1>
+    <a href="calculator.aspx">Calculate New Mileage</a>
+    <div class="jumbotron well-lg">
     <asp:GridView ID="grdMileage" runat="server" CssClass="table table-striped"
         autogeneratecolumns="false" DataKeyNames="CarID" OnRowDeleting="grdMileage_RowDeleting">
         <Columns>
@@ -17,4 +19,6 @@
             <asp:CommandField HeaderText="Delete" ShowDeleteButton="true" ControlStyle-CssClass="confirmation" />
         </Columns>
     </asp:GridView>
+        </div>
+        </div>
 </asp:Content>

@@ -5,7 +5,7 @@
    
     <div class="container">
          <h1>Login</h1>
-    <div class="jumbotron col-lg-6 col-offset-6 centered well">
+    <div class="jumbotron col-lg-6 col-offset-6 centered well-lg">
 
         <div class="form-group ">
          <asp:Label ID="labelmsg" runat="server" Text="Please enter Username & Password" CssClass="alert alert-info col-sm-offset-3"></asp:Label>

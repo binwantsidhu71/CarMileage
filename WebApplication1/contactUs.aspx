@@ -5,7 +5,7 @@
      <div class="container">
       <h1>Contact Us</h1>
       <h5>Please fill out this form and we will get in touch with you shortly.</h5>
-      <div class="jumbotron col-sm-7 well">
+      <div class="jumbotron col-sm-7 well-lg">
          <div class="form-group ">
              <asp:Label for="first" runat="server" Text="First Name:" CssClass="control-label col-sm-3"></asp:Label>
              <asp:TextBox ID="first" runat="server"></asp:TextBox>

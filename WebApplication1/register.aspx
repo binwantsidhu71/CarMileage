@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
     <h1>Register</h1>
-    <div class="jumbotron col-lg-5 col-sm-3 col-offset-6 centered well">
+    <div class="jumbotron col-lg-5 col-sm-3 col-offset-6 centered well-lg">
      <div class="form-group ">
          <asp:Label ID="labelmsg" runat="server" Text="Please Create A New Account" CssClass="alert alert-info col-sm-offset-3"></asp:Label>
      </div><br />

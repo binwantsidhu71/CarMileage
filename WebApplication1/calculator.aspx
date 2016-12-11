@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div class="container">
         <h2>Enter Your Car Detail</h2>
-        <div class="jumbotron">
+        <div class="jumbotron well-lg">
         <div class="form-group ">
             <asp:Label For="CarName" runat="server" Text="Car Name:" CssClass="control-label  col-sm-3"></asp:Label>
             <asp:TextBox ID="CarName" runat="server" required></asp:TextBox>
@@ -23,7 +23,7 @@
         </div>
 
         <h2>Calculate Car Mileage</h2>
-        <div class="jumbotron">
+        <div class="jumbotron well-lg">
         <div class="form-group">
             <asp:Label For="Fuel" runat="server" Text="Fuel Consumption:" CssClass="control-label  col-sm-3"></asp:Label>
             <asp:TextBox ID="Fuel" runat="server" ></asp:TextBox>
