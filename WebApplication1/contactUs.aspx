@@ -26,12 +26,6 @@
              <textarea rows="4" cols="25" runat="server"></textarea><br /><br />
              <asp:Button ID="Submit" runat="server" Text="Submit" CssClass="btn btn-default" />
          </div>
-          
-
-
-       
-
-
         </div>
     </div>
 </asp:Content>

@@ -13,7 +13,7 @@
 
     <div class="form-group ">
         <asp:Label for="usertext" runat="server" Text="Username: " CssClass="control-label col-sm-3"></asp:Label>
-        <asp:TextBox ID="usertext" runat="server" required TextMode="Email"></asp:TextBox>
+        <asp:TextBox ID="usertext" runat="server" required ></asp:TextBox>
     </div>
 
     <div class="form-group">

@@ -26,14 +26,24 @@
         <div class="jumbotron">
         <div class="form-group">
             <asp:Label For="Fuel" runat="server" Text="Fuel Consumption:" CssClass="control-label  col-sm-3"></asp:Label>
-            <asp:TextBox ID="Fuel" runat="server" required ></asp:TextBox>
-            
+            <asp:TextBox ID="Fuel" runat="server" ></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Required" cssclass="alert-danger"
+                 ControlToValidate="Fuel" display="Dynamic">
+            </asp:RequiredFieldValidator>
+            <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Incorrect Input" cssclass="alert-danger" ControlToValidate="Fuel"
+            MaximumValue="9999999" MinimumValue="0.01"  Display="Dynamic" >
+            </asp:RangeValidator>
         </div>
             
         <div class="form-group">
             <asp:Label For="Distance" runat="server" Text="Distance Travelled: " CssClass="control-label col-sm-3"></asp:Label>
-            <asp:TextBox ID="Distance" runat="server" required></asp:TextBox>
-            
+            <asp:TextBox ID="Distance" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Required" cssclass="alert-danger"
+                 ControlToValidate="Distance" display="Dynamic">
+            </asp:RequiredFieldValidator>
+            <asp:RangeValidator ID="RangeValidator2" runat="server" ErrorMessage="Incorrect Input" cssclass="alert-danger" ControlToValidate="Distance"
+            MaximumValue="9999999" MinimumValue="0.01"  Display="Dynamic" >
+            </asp:RangeValidator>
         </div> 
             <asp:Button ID="Calculate" runat="server" Text="Calculate" CssClass="btn btn-primary control-label" OnClick="Calculate_Click" />
 
