@@ -5,6 +5,7 @@
    
     <div class="container">
          <h1>Login</h1>
+        <p>If you are not Registered yet<a href="register.aspx"> Click Here</a></p>
     <div class="jumbotron col-lg-6 col-offset-6 centered well-lg">
 
         <div class="form-group ">
