@@ -5,6 +5,5 @@
     <h1>Ooops!</h1>
 
     <p class="jumbotron">
-        Sorry but we can't find that page.  Please try one of the links above.
-    </p>
+        The page you are looking for can't be found.
 </asp:Content>
